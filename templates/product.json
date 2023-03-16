@@ -127,7 +127,6 @@
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
-          "source": "{{ product.metafields.custom.artist.value }}",
           "settings": {
             "heading": "{{ product.metafields.custom.artist.value.name.value }}",
             "heading_size": "h1"
@@ -135,7 +134,6 @@
         },
         "image-with-text-1": {
           "type": "text",
-          "source": "{{ product.metafields.custom.artist.value }}",
           "settings": {
             "text": "{{ product.metafields.custom.artist.value.info | metafield_tag }}",
             "text_style": "body"
